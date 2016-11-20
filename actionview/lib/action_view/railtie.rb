@@ -2,8 +2,8 @@ require "action_view"
 require "rails"
 
 module ActionView
-  # = Action View Railtie
-  class Railtie < Rails::Railtie # :nodoc:
+  # = Action View Engine
+  class Railtie < Rails::Engine # :nodoc:
     config.action_view = ActiveSupport::OrderedOptions.new
     config.action_view.embed_authenticity_token_in_remote_forms = false
     config.action_view.debug_missing_translation = true
