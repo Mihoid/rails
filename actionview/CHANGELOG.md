@@ -1,3 +1,8 @@
+*   Ship rails-ujs.js asset from rails/rails-ujs repository inside of
+    actionview gem, this enable UJS behaviors without any external dependency.
+
+    *Dangyi Liu*
+
 *   Removed deprecated `#original_exception` in `ActionView::Template::Error`.
 
     *Rafael Mendonça França*

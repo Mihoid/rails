@@ -1,3 +1,8 @@
+*   Removed jquery-rails from default stack, instead rails-ujs provided
+    by actionview gem and rails-ujs npm package will be used as UJS adapter.
+
+    *Guillermo Iguaran*
+
 *   Add `:skip_sprockets` to `Rails::PluginBuilder::PASSTHROUGH_OPTIONS`
 
     *Tsukuru Tanimichi*
